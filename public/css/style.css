@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.home {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAC926;
+    text-align: center;
+    height: 280px;
+    font-size: 12px;
+}
+div#buscador {
+    float: right;
+}
+span.caja {
+    background-color: #03264C;
+    padding: 10px;
+    border-radius: 5px;
+}
+ul {
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+article {
+    background-color: white;
+}
+p#truck {
+    float: right;
+}
+p#off {
+    color: #39b54a;;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+body main h2 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p.precio {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p.descripcion {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+ul.icon a.icono {
+    color: black;
+}
+
+ul.icon {
+    list-style: none;
+    padding: 5px;
+}
+
+a.cajita {
+    color: white;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    text-align: center;
+    font-size: 12px;
+    height: 350px;
+    margin-top: 10px;
+    padding: 40px;
+}
+
+footer section h4 {
+    margin: 10px;
+    margin-bottom: -10px;
+    font-family: 'Roboto', sans-serif;
+}
+footer section a.seg {
+    margin-bottom: 5px;
+    background-size: 2em;
+    color: #1259c3;
+    font-size: 2em
+}
+footer p.texto {
+    font-family: 'Roboto', sans-serif;
+}
+
+p.copy {
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    margin-left: -30px;
+}
