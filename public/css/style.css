@@ -6,23 +6,36 @@ header {
     font-family: 'Roboto', sans-serif;
     background-color: #EAC926;
     text-align: center;
-    height: 280px;
+    height: 230px;
     font-size: 12px;
+    padding: 10px;
 }
+
+header .logo {
+    text-align: left;
+}
+
 div#buscador {
-    float: right;
+    text-align: left;
 }
 span.caja {
     background-color: #03264C;
     padding: 10px;
     border-radius: 5px;
+    margin-top: 25px;
 }
+
+.menu {
+    margin-top: 25px;
+}
+
 ul {
     text-align: justify;
     font-family: 'Roboto', sans-serif;
 }
 article {
     background-color: white;
+    margin-bottom: 10px;
 }
 p#truck {
     float: right;
@@ -41,6 +54,18 @@ body {
 body main h2 {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+body main {
+    text-align: center;
+    font-size: 90%;
+}
+
+body main section article .caja {
+    border-top: 1px solid #ebebeb;
+    text-align: left;
+    padding-left: 15px;
 }
 
 p.precio {
@@ -49,8 +74,7 @@ p.precio {
 }
 
 p.descripcion {
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    display: none;
 }
 
 
@@ -59,8 +83,7 @@ ul.icon a.icono {
 }
 
 ul.icon {
-    list-style: none;
-    padding: 5px;
+    display: none;
 }
 
 a.cajita {
@@ -98,4 +121,41 @@ p.copy {
     font-family: 'Roboto', sans-serif;
     margin-top: 30px;
     margin-left: -30px;
+}
+
+@media (min-width : 361px){
+    span.caja{
+        display: none;
+    }
+    p.descripcion {
+        display: contents;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+    }
+    ul.icon {
+        display: contents;
+        list-style: none;
+        padding: 5px;
+    }
+    .box {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+  
+}
+
+@media (min-width : 769px){
+    span.caja{
+        display: none;
+    }
+    p.descripcion {
+        display: contents;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+    }
+    ul.icon {
+        display: contents;
+        list-style: none;
+        padding: 5px;
+    }
 }
