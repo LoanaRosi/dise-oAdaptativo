@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .home {
     font-family: 'Roboto', sans-serif;
 }
@@ -153,18 +154,4 @@ p.copy {
   
 }
 
-@media (min-width : 769px){
-    span.caja{
-        display: none;
-    }
-    p.descripcion {
-        display: contents;
-        font-size: 16px;
-        font-family: 'Roboto', sans-serif;
-    }
-    ul.icon {
-        display: contents;
-        list-style: none;
-        padding: 5px;
-    }
-}
+@media (min-width : 769px){}
