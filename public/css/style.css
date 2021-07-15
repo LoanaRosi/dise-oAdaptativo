@@ -3,6 +3,12 @@
 .home {
     font-family: 'Roboto', sans-serif;
 }
+
+.home {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
 header {
     font-family: 'Roboto', sans-serif;
     background-color: #EAC926;
@@ -36,7 +42,7 @@ ul {
 }
 article {
     background-color: white;
-    margin-bottom: 10px;
+    margin:0 20px 10px 20px;
 }
 p#truck {
     float: right;
